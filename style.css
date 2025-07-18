@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header */
+  header {
+    background-color: brown;
+    color: white;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  nav ul li {
+    position: relative;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Simple dropdown */
+  nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    padding: 10px;
+    list-style: none;
+  }
+  
+  nav ul li:hover ul {
+    display: block;
+  }
+  
+  nav ul li ul li {
+    margin: 5px 0;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: #f3e5ab;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .hero h2 {
+    font-size: 2em;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Features Section */
+  .features {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff6e5;
+  }
+  
+  .feature-box {
+    margin: 20px 0;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: brown;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
