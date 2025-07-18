@@ -4,7 +4,6 @@ body {
     padding: 0;
   }
   
-  /* Header */
   header {
     background-color: brown;
     color: white;
@@ -33,7 +32,6 @@ body {
     text-decoration: none;
   }
   
-  /* Simple dropdown */
   nav ul li ul {
     display: none;
     position: absolute;
@@ -50,7 +48,6 @@ body {
     margin: 5px 0;
   }
   
-  /* Hero Section */
   .hero {
     background-color: #f3e5ab;
     padding: 60px 20px;
@@ -70,7 +67,6 @@ body {
     text-decoration: none;
   }
   
-  /* Features Section */
   .features {
     padding: 40px 20px;
     text-align: center;
@@ -81,7 +77,6 @@ body {
     margin: 20px 0;
   }
   
-  /* Footer */
   footer {
     background-color: brown;
     color: white;
